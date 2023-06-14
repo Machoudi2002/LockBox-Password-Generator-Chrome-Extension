@@ -1,3 +1,6 @@
+## Screenshots
+![Password Generator Popup](images/screenshot.png)
+
 # Chrome Extension: LockBox Password Generator
 
 This is a simple Chrome extension that generates random passwords using HTML, CSS, and vanilla JavaScript.
@@ -23,9 +26,6 @@ This is a simple Chrome extension that generates random passwords using HTML, CS
 4. Click the "Copy" button to copy the generated password to the clipboard.
 5. Use the generated password wherever you need it.
 
-## Screenshots
-
-![Password Generator Popup](images/screenshot.png)
 
 ## Contributing
 
