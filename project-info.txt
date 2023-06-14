@@ -1,9 +1,0 @@
-main colors : 
-
-	yellowish-orange > #FFCC00
-	light-green > #00FF84
-	black-blue > #020A1E
-
-
-
-
