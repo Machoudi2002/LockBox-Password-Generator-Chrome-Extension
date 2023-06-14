@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.orange {
+    color:#FFCC00 ;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+form {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.slide-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.slide-container span {
+    font-weight: bold;
+    color: #FFCC00;
+    font-size: 19px;
+}
+
+.slide {
+    width: 99%;
+    background-color: #FFCC00;
+    cursor: pointer;
+    accent-color: #00ff62;
+}
+
+form .password-output {
+    background-color: transparent;
+    border: solid #00FF84 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.password-output svg {
+    padding-right: 12px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+
+form input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    background-color: #020A1E;
+    border: none;
+    color: #FFCC00;
+    cursor: pointer;
+    width: 300px;
+
+}
+
+form input[type="text"]:focus {
+    outline: none;
+    
+
+}
+
+.choices {
+    display: flex; 
+    flex-direction: column;
+    gap: 7px;
+
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    accent-color: #FFCC00;
+}
+
+
+
+  
+  
+  
+
+.choices label {
+    font-size: 18px;
+    letter-spacing: -1px;
+
+}
+
+input[type="submit"]   {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: #FFCC00;
+    border: none;
+    color: #020A1E;
+    border-radius: 2px;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #00ff62;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+#github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+a {
+    color: #00ff62;
+}
+
+a:hover {
+    color: #FFCC00;
+}
+
+
+.password-history {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.passwordKey {
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.remove {
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#history {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #FFCC00;
+    cursor: pointer;
+
+}
+
+#pass-tool {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #FFCC00;
+    cursor: pointer;
+
+}
