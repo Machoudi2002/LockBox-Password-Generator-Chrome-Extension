@@ -16,6 +16,7 @@ main {
     gap: 5px;
     padding: 20px;
     padding-bottom: 0;
+    width: 320px;
 }
 
 form {

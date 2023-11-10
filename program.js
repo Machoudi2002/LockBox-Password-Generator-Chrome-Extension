@@ -272,4 +272,4 @@ const revealPassTool = () => {
 
 }
 
-passTool.addEventListener('click', revealPassTool);
+// passTool.addEventListener('click', revealPassTool);
